@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <p id="navegue-aqui">Navegue aqui</p>
+        <ul class="navbar">
+          <li class="nav-item">
+            <a href="index.html" target="_self" class="index">
+            <i class="fa-solid fa-house"></i> Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a href="sobre.html" target="_self" class="sobrea">
+            <i class="fas fa-book"></i> Sobre a Clínica</a>
+          </li>
+          <li class="nav-item">
+            <a href="horarioAtend.html" target="_self" class="atendimento">
+            <i class="fa-solid fa-business-time"></i> Atendimento</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="header">
+          <div id="frase">
+            <p class="first-sentence">Clínica SaúdeVida</p>
+            <p class="second-sentence">Seu bem estar é nossa prioridade.</p>
+          </div>
+          <img
+            id="img-header"
+            src="imagens/undraw_medical_research_qg4d.svg"
+            alt="img-header"
+            height="150px"
+          />
+      </div>
+      <div class="content">
+        <h2>Contato</h2>
+        <span>Entre em contato conosco para agendar uma consulta ou tirar dúvidas sobre nossos serviços.</span><br><br>
+        <span class="contato"><i class="fa-brands fa-whatsapp"></i> Telefone: (11) 1234-5678</span>
+        <span class="contato">| <i class="fa-regular fa-envelope-open"></i> E-mail: clinica@saudevida.com.br</span>
+        <br>
+        <form 
+          name="formulario" 
+          method="post" 
+          target="_self" 
+          autocomplete="on">
+          <fieldset>
+            <legend>Formulário de Contato</legend>
+            <label for="nome">Nome:</label>
+            <input 
+              type="text" 
+              name="nome" 
+              id="nome" 
+              placeholder="Digite seu nome" 
+              required
+            />
+            <label for="email">E-mail:</label>
+            <input 
+              type="email" 
+              name="email" 
+              id="email" 
+              placeholder="Digite seu e-mail" 
+              required
+            />
+            <label for="telefone">Telefone:</label>
+            <input 
+              type="tel" 
+              name="telefone" 
+              id="telefone" 
+              placeholder="Digite seu telefone" 
+              required
+            />
+            <br><br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea 
+              name="mensagem" 
+              id="mensagem" 
+              placeholder="Digite sua mensagem" 
+              required
+            ></textarea>
+            <br><br>
+            <input 
+              type="submit" 
+              value="Enviar" 
+              id="enviar" 
+              name="enviar"
+            />
+            <button type="reset" id="limpar" name="limpar"
+            >Limpar tudo</button>
+        </form>
+          </fieldset>
+          <h2>Endereço</h2>
+          <p>Faça-nos uma visita presencial: Av. Paulista, 1000 - Bela Vista São Paulo</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14628.392171824804!2d-46.651938!3d-23.564922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1691207999415!5m2!1spt-BR!2sbr" 
+          width="650" 
+          height="150" 
+          style="border:0;" 
+          allowfullscreen="" loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+      </div>
+      <div class="footer">
+        <span><strong>Certificações e Acreditações</strong></span>
+        <ul>
+          <li>
+            Acreditação Nacional de Qualidade em Saúde (ANQS): A Clínica SaúdeVida possui a prestigiosa certificação ANQS, reconhecida por seus altos padrões de qualidade e segurança no atendimento médico.
+          </li>
+          <li>
+            Certificado de Excelência Médica (CEM): Nossa equipe de profissionais altamente qualificados recebeu o Certificado de Excelência Médica por sua dedicação em proporcionar cuidados excepcionais aos nossos pacientes.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
